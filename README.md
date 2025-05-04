@@ -1,12 +1,71 @@
-# React + Vite
+# 🧠 Quizz - Plataforma de Quiz sobre Tecnologia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao **Quizz**, uma plataforma interativa onde usuários podem **realizar quizzes sobre tecnologia** ou **criar seus próprios quizzes**! Desenvolvido com foco em aprendizado, diversão e compartilhamento de conhecimento.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Índice
 
-## Expanding the ESLint configuration
+- [📌 Introdução](#-introdução)
+- [✨ Funcionalidades](#-funcionalidades)
+- [👩‍💻 Para Desenvolvedores](#-para-desenvolvedores)
+  - [⚙️ Requisitos do Sistema](#️-requisitos-do-sistema)
+  - [📥 Instalação](#-instalação)
+- [🤝 Colaboradores](#-colaboradores)
+- [📄 Licença](#-licença)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Introdução
+
+O **Quizz** foi criado com o objetivo de oferecer uma plataforma moderna e acessível para quem deseja testar seus conhecimentos ou ensinar outros usuários sobre assuntos de tecnologia. Com interface intuitiva e arquitetura escalável, o projeto busca ser um ponto de aprendizado e diversão na web.
+
+---
+
+## ✨ Funcionalidades
+
+- ✅ Realização de quizzes temáticos sobre tecnologia  
+- ✅ Criação de quizzes personalizados por usuários  
+- ✅ Sistema de pontuação e feedback imediato  
+- ✅ Interface moderna e responsiva  
+- ✅ Navegação por páginas com React Router  
+- 🚧 (Em breve) Login e salvamento de progresso  
+
+---
+
+## 👩‍💻 Para Desenvolvedores
+
+### ⚙️ Requisitos do Sistema
+
+#### 🔹 Frontend (React + Vite)
+
+- [Node.js](https://nodejs.org/) >= 18.x  
+- [NPM](https://www.npmjs.com/) 
+- [Git](https://git-scm.com/)  
+- [Vite](https://vitejs.dev/) (já incluído no projeto)  
+- [React](https://reactjs.org/) + [React Router](https://reactrouter.com/)  
+- Navegador moderno (Chrome, Firefox, etc.)
+
+#### 🔸 Backend (em desenvolvimento)
+
+- Banco de dados relacional (ex: PostgreSQL ou MySQL)  
+- Ambiente ( backend escolhido)  
+- API REST ou GraphQL  
+
+---
+
+### 📥 Instalação
+
+1. **Clone o repositório**
+    ```bash
+    git clone https://github.com/isabelly-remigio/Quizz.git
+
+
+1.1 **Instale as dependências**
+   ```bash
+    cd Quizz
+    npm install
+
+
+1.2 **Execute o projeto**
+     npm run dev
